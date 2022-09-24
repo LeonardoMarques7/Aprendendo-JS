@@ -84,11 +84,11 @@ let pessoa = { // Usando o objects nós podemos declarar varias variáveis
 
 // Arrays
 
-let familia = [24,'Trinta e dois',91,12]; // Valores são definidos em ordem começando pelo 0... Exem [24, 46, 75] O valor de 24 esta no 0. E o valor de 75 esta na 2 posição
+let familia = [24, 'Trinta e dois', 91, 12]; // Valores são definidos em ordem começando pelo 0... Exem [24, 46, 75] O valor de 24 esta no 0. E o valor de 75 esta na 2 posição
+console.log("Comdando length nos mostra o tamnhanho do Array. Exem.: " + familia.length + ".");
+console.log("Apresentando os valores do array: " + familia + ".");  // Apresenta no console o array familia 
 
-console.log(familia);  // Apresenta no console o array familia 
-
-console.log(familia[2]);  // Apresentando valor na segunda posição = 91...
+console.log("O valor correspondente da posição dois é o " + familia[2] + ".");  // Apresentando valor na segunda posição = 91...
 
 
 
